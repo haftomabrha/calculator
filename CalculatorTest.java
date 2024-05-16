@@ -1,5 +1,3 @@
-package simpleCalculator;
-
 import org.junit.Test;
 
 public class CalculatorTest{
@@ -7,4 +5,15 @@ public class CalculatorTest{
     public void  addNumbersTest(){
     
     }
-}
+    @Test
+    public void  subNumbersTest(){
+    
+    }
+    @Test
+    public void  mulNumbersTest(){
+    
+    }
+    @Test
+    public void  divNumbersTest(){
+    
+    }
