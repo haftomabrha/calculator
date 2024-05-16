@@ -18,4 +18,7 @@ public class Calculator {
     public int cub(int a) {
         return a*a*a;
     }
+    public int power(int a) {
+        return a*a*a;
+    }
 }

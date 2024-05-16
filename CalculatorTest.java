@@ -32,5 +32,10 @@ public class CalculatorTest {
         Calculator cal = new Calculator();
         assertEquals(8, cal.cub(2));
     }
+    @Test
+    public void powrTest() {
+        Calculator cal = new Calculator();
+        assertEquals(8, cal.power(2));
+    }
    
 }
