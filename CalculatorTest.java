@@ -22,5 +22,20 @@ public class CalculatorTest {
         Calculator cal = new Calculator();
         assertEquals(5, cal.div(10, 2));
     }
+    @Test
+    public void squarTest() {
+        Calculator cal = new Calculator();
+        assertEquals(10, cal.square(10));
+    }
+    @Test
+    public void cubTest() {
+        Calculator cal = new Calculator();
+        assertEquals(8, cal.cub(2));
+    }
+    @Test
+    public void powrTest() {
+        Calculator cal = new Calculator();
+        assertEquals(8, cal.power(2));
+    }
    
 }
