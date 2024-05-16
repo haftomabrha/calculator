@@ -1,19 +1,10 @@
 import org.junit.Test;
+import static org.junit.Assert.*;
 
-public class CalculatorTest{
+public class CalculatorTest {
     @Test
-    public void  addNumbersTest(){
-    
+    public void addTest() {
+        Calculator cal = new Calculator();
+        assertEquals(5, cal.add(5, 0));
     }
-    @Test
-    public void  subNumbersTest(){
-    
-    }
-    @Test
-    public void  mulNumbersTest(){
-    
-    }
-    @Test
-    public void  divNumbersTest(){
-    
-    }
+}
