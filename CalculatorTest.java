@@ -27,5 +27,10 @@ public class CalculatorTest {
         Calculator cal = new Calculator();
         assertEquals(10, cal.square(10));
     }
+    @Test
+    public void cubTest() {
+        Calculator cal = new Calculator();
+        assertEquals(8, cal.cub(2));
+    }
    
 }

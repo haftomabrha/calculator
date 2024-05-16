@@ -15,4 +15,7 @@ public class Calculator {
     public int square(int a) {
         return a*a;
     }
+    public int cub(int a) {
+        return a*a*a;
+    }
 }
